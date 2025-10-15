@@ -36,9 +36,9 @@ long front_duration, LEFT_duration, RIGHT_duration;
 int front_distance, LEFT_distance, RIGHT_distance;
 
 // Define servo positions in radians
-const float START_POSITION_RADIAN = 20.0 * PI / 180.0;
-const float LEFT_TURN_RADIAN = -20.0 * PI / 180.0;
-const float RIGHT_TURN_RADIAN = 60.0 * PI / 180.0; // User set to 60.0 * PI / 180.0
+const float START_POSITION_RADIAN = 0 * PI / 180.0;
+const float LEFT_TURN_RADIAN = -40.0 * PI / 180.0;
+const float RIGHT_TURN_RADIAN = 40.0 * PI / 180.0; // User set to 60.0 * PI / 180.0
 const int OBSTACLE_DISTANCE_CM = 12; // Distance threshold in cm (Used for front stop/avoidance)
 const int SIDE_AVOID_DISTANCE_CM = 8; // Distance threshold in cm for side avoidance
 
